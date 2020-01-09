@@ -1,20 +1,20 @@
-def circle(r):#calculate area of circle
+def circle(r):					#calculate area of circle
     s=3.14*r**2
     return s
    
-def rectangle(length,width):#calculate area of rectangle
+def rectangle(length,width):			#calculate area of rectangle
     s=length*width
     return s
 
-def square(side):#calculate area of square
+def square(side):				#calculate area of square
     s=side**2
     return s
     
-def triangle(base,height):#calculate area of triangle
+def triangle(base,height):			#calculate area of triangle
     s=base*height/2
     return s
     
-def get_func(ls):#vared kardane ashkal dar yek list
+def get_func(ls):				#vared kardane ashkal dar yek list
     print("Enter name of 4 shape:")
     for i in range(0,4):
         shape=input()
@@ -24,7 +24,7 @@ def get_func(ls):#vared kardane ashkal dar yek list
     
 ls=[]
 print(get_func(ls))
-choose=input("choose a shape from list:")#entekhabe yek shekl baraye hesab kardan va neshan dadane masahat
+choose=input("choose a shape from list:")	#entekhabe yek shekl baraye hesab kardan va neshan dadane masahat
 if choose=='circle':
     r=int(input("Enter Radius:"))
     print("Area of circle is:",circle(r))

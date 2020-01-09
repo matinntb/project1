@@ -20,10 +20,11 @@ def get_func(ls):				#vared kardane ashkal dar yek list
         shape=input()
         ls.append(shape)
     return ls
-    
-    
+      
 ls=[]
+
 print(get_func(ls))
+
 choose=input("choose a shape from list:")	#entekhabe yek shekl baraye hesab kardan va neshan dadane masahat
 if choose=='circle':
     r=int(input("Enter Radius:"))
